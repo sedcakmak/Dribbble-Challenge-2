@@ -1,7 +1,51 @@
-h1 {
-  color: pink;
-}
+@import url("components/carousel.css");
 
 body {
   background-color: purple;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.fa, .fas {
+  color: yellow;
+  font-size: larger;
+}
+
+.btn-sm {
+  background-color: transparent;
+  color: black;
+}
+.button {
+  background-color: pink;
+}
+
+span {
+  font-weight: 500;
+}
+.title:after {
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    color: red;
+    margin: auto 8px;
+}
+
+/* .line-5 {
+  height: 5px;
+  background: linear-gradient(
+    to bottom,
+    transparent 2px,
+    black 2px,
+    black 3px,
+    transparent 3px
+  );
+} */

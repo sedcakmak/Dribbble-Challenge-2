@@ -6,10 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dribbble Challenge Part 2</title>
     <meta name="description" content="The second project of the Dribbble Component Challenge">
+    <script src="https://kit.fontawesome.com/60762ac1b5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href= "css/style.css">
   </head>
 
   <body>
-    <h1>HELLO WORLD</h1>
+    <div class="grid-container">
+
+      <div class="grid-item">1</div>
+      <div class="grid-item">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <p>Powered by Vendimation <i class="fas fa-ice-cream ml-3"></i></p>
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1637338900/scott-webb-aHhhdKUP77M-unsplash_dzvdry.jpg" style="width:100%">
+            <div class="text">
+              <blockquote>We are designing for a global user base...[With <br> inVision we can get feedback not just from <br>
+              drivers we see in San Francisco but from all <br> around the world.<br>
+            Mike Davidson</blockquote>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1633041459/symbol-scatter-haikei_2_hzwylb.png" style="width:100%">
+            <div class="text">
+                            <blockquote>We are designing for a global user base...[With <br> inVision we can get feedback not just from <br>
+                              drivers we see in San Francisco but from all <br> around the world.<br>
+                              Mike Davidson</blockquote>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1633004087/meetingform1_qdazyi.png" style="width:100%">
+            <div class="text">
+                            <blockquote>We are designing for a global user base...[With <br> inVision we can get feedback not just from <br>
+                              drivers we see in San Francisco but from all <br> around the world.<br>
+                              Mike Davidson</blockquote>
+            </div>
+          </div>
+        </div>
+              <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+      </div>
+    </div>
+    <script type="text/javascript" src="javascript/index.js"></script>
   </body>
 </html>

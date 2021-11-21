@@ -1,23 +1,30 @@
 @import url("components/carousel.css");
-
+/* *{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} */
 body {
   background-color: purple;
+    padding: 0;
+  margin: 0;
+  height: 100%;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   background-color: #2196F3;
-  padding: 10px;
+  min-height: 40%;
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
+  height: 100%;
 }
 
 .fa, .fas {
-  color: yellow;
   font-size: larger;
 }
 
@@ -29,10 +36,28 @@ body {
   background-color: pink;
 }
 
+.dropdown {
+  border:2px solid black;
+  text-decoration: none;
+}
+  .dropdown-main > .fas {
+  margin-left: 0 ;
+  border:2px solid black;
+  color: blue;
+  }
+
+
+ul {
+  list-style-type: none;
+}
 span {
   font-weight: 500;
 }
-.title:after {
+
+.navclass > ul >li {
+  display: inline-block;
+}
+.redline:after {
     content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
     text-decoration:line-through;
     color: red;

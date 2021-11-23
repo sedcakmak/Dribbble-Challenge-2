@@ -41,3 +41,7 @@ function showSlides() {
   slides[slideIndex - 1].style.display = "block";
   setTimeout(showSlides, 10000); // Change image every 2 seconds
 }
+
+function changeOutput() {
+  document.getElementById('mail').value = "jeetseans@gma";
+}

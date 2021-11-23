@@ -13,50 +13,73 @@
   <body>
     <div class="grid-container">
 
-      <div class="grid-item">
-        <nav class="navclass">
-          <ul>
-            <li><span class="redline">01</span>Personal Details</li>
-            <li class="dropdown" >
-           English <button><a class="dropdown-main" href = "#"><i class="fas fa-caret-down"></i></a></button>
-                <!-- <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Türkçe</a></li>
-                  <li><a class="dropdown-item" href="#">Français</a></li>
-                </ul> -->
-            </li>
-          </ul>
-        </nav>
+      <div class="grid-item-left">
+        <div class="wrapper">
+          <nav class="navclass">
+            <ul>
+              <li><span class="redline">01</span>Personal Details</li>
+              <li class="dropdown" >
+            English <button><a class="dropdown-main" href = "#"><i class="fas fa-caret-down"></i></a></button>
+                  <!-- <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Türkçe</a></li>
+                    <li><a class="dropdown-item" href="#">Français</a></li>
+                  </ul> -->
+              </li>
+            </ul>
+          </nav>
+          <form action="#">
+            <h2>Get started absolutely free <i class="far fa-circle fa-1x"></i></h2>
+            <p>Free forever. No credit card needed.</p>
+            <div class='full-input'><input type="text" id="fname" name="fullname"
+            placeholder="Full Name"></input></div>
+            <div class='full-input'><label for='email'>EMAIL ADDRESS</label>
+            <input type='text' name='email' id="mail" onfocus="changeOutput()" autofocus></input></div>
+            <div class='full-input'><input type="text" id="pword" name="password"
+            placeholder="●●●●●●●●●●"></input></div>
+            <div class='full-input'><label for='phone'>MOBILE PHONE</label>
+            <input type='tel' name='phone' value="+91 &#9660; 971-727-4597" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></input></div>
+            <div class='full-input'><label for='datebirth'>DATE OF BIRTH</label>
+            <input type='text' name='datebirth' value="29 July * 1985" onfocus="(this.type='date')" onblur="(this.type='text')"></input><span><i class="fas fa-calendar-day"></i></span></div>
+            <!-- <input placeholder="Date" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" /> -->
+            <input type="checkbox" id="terms" value="Terms">
+            <label for="terms">By clicking here you confirm that you agree with our terms & conditions</label></input>
+          <button type="submit">CREATE MY ACCOUNT</button> or <i class="fab fa-google"></i> <i class="fab fa-facebook-f"></i><br>
+              <span class="redline"></span><a class="red" href="#">LOGIN</a>
+          </form>
+        </div>
       </div>
 
-      <div class="grid-item">
+      <div class="grid-item-right">
         <!-- Slideshow container -->
         <div class="slideshow-container">
           <div class="vendimation"><p>Powered by Vendimation <i class="fas fa-ice-cream ml-3"></i></p></div>
+          <img class="logo" src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1637676756/Untitled_design_oxzlzn.png">
+
           <!-- Full-width images with number and caption text -->
           <div class="mySlides fade">
-            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1637338900/scott-webb-aHhhdKUP77M-unsplash_dzvdry.jpg" style="width:100%">
+            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1637338900/scott-webb-aHhhdKUP77M-unsplash_dzvdry.jpg" style="width:100%; height: 95vh">
             <div class="text">
-              <blockquote>We are designing for a global user base...[With <br> inVision we can get feedback not just from <br>
+              <blockquote>We are designing for a global user base...[With <br>inVision we can get feedback not just from <br>
               drivers we see in San Francisco but from all <br> around the world.<br>
-              Mike Davidson</blockquote>
+              <span class="redline"></span>Mike Davidson</blockquote>
             </div>
           </div>
 
           <div class="mySlides fade">
-            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1633041459/symbol-scatter-haikei_2_hzwylb.png" style="width:100%">
+            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1633041459/symbol-scatter-haikei_2_hzwylb.png" style="width:100%; height: 95vh">
             <div class="text">
-              <blockquote>We are designing for a global user base...[With <br> inVision we can get feedback not just from <br>
+              <blockquote>We are designing for a global user base...[With <br>inVision we can get feedback not just from <br>
                 drivers we see in San Francisco but from all <br> around the world.<br>
-                Mike Davidson</blockquote>
+                <span class="redline"></span>Mike Davidson</blockquote>
             </div>
           </div>
 
           <div class="mySlides fade">
-            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1633004087/meetingform1_qdazyi.png" style="width:100%">
+            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1633004087/meetingform1_qdazyi.png" style="width:100%; height: 95vh">
             <div class="text">
-              <blockquote>We are designing for a global user base...[With <br> inVision we can get feedback not just from <br>
+              <blockquote>We are designing for a global user base...[With <br>inVision we can get feedback not just from <br>
                 drivers we see in San Francisco but from all <br> around the world.<br>
-                Mike Davidson</blockquote>
+                <span class="redline"></span>Mike Davidson</blockquote>
             </div>
           </div>
 

@@ -1,22 +1,17 @@
 * {box-sizing:border-box}
 
-/* Slideshow container */
 .slideshow-container {
   min-width: 100%;
   min-height: 100%;
-  /* height: 100%; */
   border: solid 2px yellow;
   position: relative;
   margin: 0;
-  /* max-width: 1000px;
-
-  margin: auto; */
 }
 
 .vendimation {
   position: absolute;
   right: 0px;
-  top: 0px;
+  top: 25px;
   z-index: 1;
   margin-right: 50px;
 }
@@ -55,13 +50,11 @@ blockquote::before {
   content: open-quote;
   top: 0;
   left: 0;
-  display: block;
   width: 60px;
   height: 60px;
   line-height: 1.618;
-  font-size: 3em;
-  border-radius: 100%;
-  text-align: center;
+  font-size: 5em;
+  font-family: 'Times New Roman', Times, serif;
   position: absolute;
 }
 

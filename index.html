@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dribbble Challenge Part 2</title>
     <meta name="description" content="The second project of the Dribbble Component Challenge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/60762ac1b5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href= "css/style.css">
   </head>
@@ -41,9 +44,9 @@
             <div class='full-input'><label for='datebirth'>DATE OF BIRTH</label>
             <input type='text' name='datebirth' value="29 July * 1985" onfocus="(this.type='date')" onblur="(this.type='text')"></input><span><i class="fas fa-calendar-day"></i></span></div>
             <!-- <input placeholder="Date" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" /> -->
-            <input type="checkbox" id="terms" value="Terms">
-            <label for="terms">By clicking here you confirm that you agree with our terms & conditions</label></input>
-          <button type="submit">CREATE MY ACCOUNT</button> or <i class="fab fa-google"></i> <i class="fab fa-facebook-f"></i><br>
+            <div class="term"><input type="checkbox" id="terms" value="Terms">
+            <label for="terms">By clicking here you confirm that you agree with our terms & conditions</label></input></div>
+          <div class="account"><button type="submit" class="btn-blue">CREATE MY ACCOUNT</button> or <div class="social"> <i class="fab fa-google"></i> <i class="fab fa-facebook-f"></i></div></div>
               <span class="redline"></span><a class="red" href="#">LOGIN</a>
           </form>
         </div>

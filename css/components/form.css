@@ -1,8 +1,29 @@
 .full-input {
-  padding: 3px;
-  border: 2px solid blue;
+
+  height: 10vh;
   background-color: white;
+  margin-bottom: 8px;
+  box-shadow: 2px 2px 1px 3px #eaeaea;
+  border-radius: 4px;
+  align-items: center;
 }
+
+/* li:first-child {
+  float:left;
+}
+.dropdown-main {
+  float: right;
+} */
+
+h2 {
+margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  color: #bfbfbf;
+}
+
 input {
   outline: none;
   border: none;
@@ -13,17 +34,52 @@ input {
 label {
   display: block;
   font-size: 12px;
-  color: blue;
+  color: #bfbfbf;
 }
+
+label:last-child {
+color: black !important;
+}
+
+input:focus {
+/* color: #5DD6F4;
+border: 1px solid #5DD6F4; */
+}
+
 input[type="checkbox"] {
-  margin-left: 10px;
-  margin-top: 10px;
+  font-weight: 900;
+  border: 0.15em solid black;
+  padding: 18px;
 }
 input[type="checkbox"] + label {
-  color: black;
+  margin-left: 10px;
 }
 
 .red {
   color: red;
   text-decoration: none;
+}
+.btn-blue {
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 58px;
+  color: white;
+  font-weight: bolder;
+  font-size: 12px;
+  background: linear-gradient(to right, #5DD6F4, #1c70d1);
+}
+
+.term {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10px;
+}
+.account {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #bfbfbf;
 }

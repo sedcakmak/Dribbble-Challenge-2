@@ -4,6 +4,7 @@
 .fa-circle {
   color: yellow;
   float: right;
+  margin-left: 30px;
 }
 
 .fa-google {
@@ -26,4 +27,8 @@
   background-color: #3b5998;
   color: white;
   font-size: small;
+}
+
+.fa-calendar-day {
+  float: right;
 }

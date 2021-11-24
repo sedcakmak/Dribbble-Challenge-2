@@ -10,7 +10,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 body {
-  /* background-color: purple; */
   padding: 0;
   margin: 0;
   height: 100%;
@@ -47,6 +46,8 @@ body {
 .dropdown {
   /* border:2px solid black; */
   text-decoration: none;
+  margin-left: 180px;
+
 }
   .dropdown-main > .fas {
   margin-left: 0 ;
@@ -57,11 +58,19 @@ body {
 
 ul {
   list-style-type: none;
+  padding-left: 0;
 }
 span {
   font-weight: 500;
 }
 
+.navclass {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding-left: 0;
+  margin-left: 0;
+}
 .navclass > ul >li {
   display: inline-block;
 }

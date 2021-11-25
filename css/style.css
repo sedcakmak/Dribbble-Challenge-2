@@ -41,7 +41,11 @@ body {
   text-decoration: none;
   box-shadow: none;
   margin-left: 50px;
+  position: absolute;
+  top: -8px;
+  right: 0px;
 }
+
 .select {
     border: 1px solid #bfbfbf;
     overflow: hidden;
@@ -66,7 +70,7 @@ select {
 .select:after {
     content:"\f0d7";
     font-family: "Font Awesome 5 Free";
-    color: blue;
+    color: #00b2b2;
     border-left: 1px solid #bfbfbf;
     padding: 12px 8px;
     position: absolute; right: 0; top: 0;
@@ -86,11 +90,9 @@ span {
 }
 
 .navclass {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-left: 0;
   margin-left: 0;
+  position: relative;
 }
 .navclass > ul >li {
   display: inline-block;

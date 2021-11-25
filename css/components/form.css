@@ -37,15 +37,21 @@ label {
   font-size: 12px;
   color: #bfbfbf;
   margin-bottom: 5px;
+  font-weight: bold;
 }
 
-label:last-child {
-color: black !important;
+/* label:last-child {
+font-weight: normal;
+} */
+
+.full-input.active {
+  border: 2px solid #00b2b2;
+  box-shadow: none;
+  caret-color: #00b2b2;
 }
 
-input:focus {
-/* color: #5DD6F4;
-border: 1px solid #5DD6F4; */
+ .active label {
+ color: #00b2b2;
 }
 
 input[type="checkbox"] {
@@ -58,9 +64,12 @@ input[type="checkbox"] + label {
 }
 
 .red {
-  color: red;
+  color: #990000;
   text-decoration: none;
+  font-weight: bolder;
+  font-size: smaller;
 }
+
 .btn-blue {
   border-radius: 30px;
   margin-top: 10px;
@@ -84,4 +93,9 @@ input[type="checkbox"] + label {
   justify-content: space-between;
   align-items: center;
   color: #bfbfbf;
+  margin-bottom: 5px;
+}
+#pword::placeholder {
+  color: black;
+  letter-spacing: 0.2em;
 }

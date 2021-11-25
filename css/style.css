@@ -24,16 +24,10 @@ body {
 
 .grid-item-left {
   background-color: rgba(255, 255, 255, 0.8);
-  /* border: 1px solid rgba(0, 0, 0, 0.8); */
   height: 100%;
   justify-self: center;
   padding: 20px;
 }
-
-/* .wrapper {
-  border: 2px green solid;
-} */
-
 
 .btn-sm {
   background-color: transparent;
@@ -44,18 +38,45 @@ body {
 }
 
 .dropdown {
-  /* border:2px solid black; */
   text-decoration: none;
-  margin-left: 180px;
-
+  box-shadow: none;
+  margin-left: 50px;
 }
-  .dropdown-main > .fas {
-  margin-left: 0 ;
-  /* border:2px solid black; */
-  color: blue;
-  }
+.select {
+    border: 1px solid #bfbfbf;
+    overflow: hidden;
+    height: 35px;
+    width: 180px;
+    position: relative;
+    display: block;
+}
 
+select {
+    height: 35px;
+    padding: 5px;
+    border: 0;
+    font-size: 16px;
+    width: 180px;
 
+   -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.select:after {
+    content:"\f0d7";
+    font-family: "Font Awesome 5 Free";
+    color: blue;
+    border-left: 1px solid #bfbfbf;
+    padding: 12px 8px;
+    position: absolute; right: 0; top: 0;
+    z-index: 1;
+    text-align: center;
+    width: 30px;
+    height: 35px;
+    pointer-events: none;
+    box-sizing: border-box;
+}
 ul {
   list-style-type: none;
   padding-left: 0;
@@ -67,7 +88,7 @@ span {
 .navclass {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
   padding-left: 0;
   margin-left: 0;
 }
@@ -77,8 +98,30 @@ span {
 .redline:after {
     content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
     text-decoration:line-through;
-    color: red;
+    color: #990000;
     margin: auto 8px;
+    font-weight: bold;
+}
+
+.redline2:after {
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    color: #990000;
+    margin: auto 8px;
+    font-weight: bold;
+}
+
+.text span {
+  color: yellow;
+  font-size: smaller;
+}
+
+.yellowline:after {
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    color: yellow;
+    margin: 1px 4px;
+    font-weight: bold;
 }
 
 /* .line-5 {

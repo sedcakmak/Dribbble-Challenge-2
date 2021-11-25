@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/60762ac1b5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href= "css/style.css">
   </head>
@@ -17,39 +18,39 @@
     <div class="grid-container">
 
       <div class="grid-item-left">
-        <div class="wrapper">
-          <nav class="navclass">
-            <ul>
-              <li><span class="redline">01</span>Personal Details</li>
-              <li class="dropdown" >
-            English <button><a class="dropdown-main" href = "#"><i class="fas fa-caret-down"></i></a></button>
-                  <!-- <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Türkçe</a></li>
-                    <li><a class="dropdown-item" href="#">Français</a></li>
-                  </ul> -->
-              </li>
-            </ul>
-          </nav>
-          <form action="#">
-            <h2>Get started absolutely free <i class="far fa-circle fa-1x"></i></h2>
-            <p>Free forever. No credit card needed.</p>
-            <div class='full-input'><input type="text" id="fname" name="fullname"
-            placeholder="Full Name"></input></div>
-            <div class='full-input'><label for='email'>EMAIL ADDRESS</label>
-            <input type='text' name='email' id="mail" onfocus="changeOutput()" autofocus></input></div>
-            <div class='full-input'><input type="text" id="pword" name="password"
-            placeholder="●●●●●●●●●●"></input></div>
-            <div class='full-input'><label for='phone'>MOBILE PHONE</label>
-            <input type='tel' name='phone' value="+91 &#9660; 971-727-4597" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></input></div>
-            <div class='full-input'><label for='datebirth'>DATE OF BIRTH</label>
-            <input type='text' name='datebirth' value="29 July * 1985" onfocus="(this.type='date')" onblur="(this.type='text')"></input><span><i class="fas fa-calendar-day"></i></span></div>
-            <!-- <input placeholder="Date" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" /> -->
-            <div class="term"><input type="checkbox" id="terms" value="Terms">
-            <label for="terms">By clicking here you confirm that you agree with our terms & conditions</label></input></div>
-          <div class="account"><button type="submit" class="btn-blue">CREATE MY ACCOUNT</button> or <div class="social"> <i class="fab fa-google"></i> <i class="fab fa-facebook-f"></i></div></div>
-              <span class="redline"></span><a class="red" href="#">LOGIN</a>
-          </form>
-        </div>
+        <nav class="navclass">
+          <ul>
+            <li><span class="redline">01</span>Personal Details</li>
+            <li class="dropdown" >
+              <label class="select">
+                <select name="language" id="language">
+                  <option value="english">English</option>
+                  <option value="turkce">Türkçe</option>
+                  <option value="francais">Français</option>
+                </select>
+              </label>
+            </li>
+          </ul>
+        </nav>
+        <form action="#" id="myDIV">
+          <h2>Get started absolutely free <i class="far fa-circle fa-1x"></i></h2>
+          <p>Free forever. No credit card needed.</p>
+          <div class='full-input'><input type="text" id="fname" name="fullname"
+          placeholder="Full Name"></input></div>
+          <div class='full-input active'><label for='email'>EMAIL ADDRESS</label>
+          <input type='text' name='email' id="mail" onfocus="changeOutput()" autofocus></input></div>
+          <div class='full-input'><input type="text" id="pword" name="password"
+          placeholder="●●●●●●●●●●"></input></div>
+          <div class='full-input'><label for='phone'>MOBILE PHONE</label>
+          <input type='tel' name='phone' value="+91 &#9660; 971-727-4597" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></input></div>
+          <div class='full-input'><label for='datebirth'>DATE OF BIRTH</label>
+          <input type='text' name='datebirth' value="29 July * 1985" onfocus="(this.type='date')" onblur="(this.type='text')"></input><span><i class="fas fa-calendar-day"></i></span></div>
+          <!-- <input placeholder="Date" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" /> -->
+          <div class="term"><input type="checkbox" id="terms" value="Terms">
+          <label for="terms">By clicking here you confirm that you agree with our terms & conditions</label></input></div>
+        <div class="account"><button type="submit" class="btn-blue">CREATE MY ACCOUNT</button> or <div class="social"> <i class="fab fa-google"></i> <i class="fab fa-facebook-f"></i></div></div>
+            <span class="redline2"></span><a class="red" href="#">LOGIN</a>
+        </form>
       </div>
 
       <div class="grid-item-right">
@@ -60,34 +61,26 @@
 
           <!-- Full-width images with number and caption text -->
           <div class="mySlides fade">
-            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1637338900/scott-webb-aHhhdKUP77M-unsplash_dzvdry.jpg" style="width:100%; height: 95vh">
-            <div class="text">
-              <blockquote>We are designing for a global user base...[With <br>inVision we can get feedback not just from <br>
-              drivers we see in San Francisco but from all <br> around the world.<br>
-              <span class="redline"></span>Mike Davidson</blockquote>
-            </div>
+            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1637338900/scott-webb-aHhhdKUP77M-unsplash_dzvdry.jpg" style="width:100%; height: 99vh">
           </div>
 
           <div class="mySlides fade">
-            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1633041459/symbol-scatter-haikei_2_hzwylb.png" style="width:100%; height: 95vh">
-            <div class="text">
-              <blockquote>We are designing for a global user base...[With <br>inVision we can get feedback not just from <br>
-                drivers we see in San Francisco but from all <br> around the world.<br>
-                <span class="redline"></span>Mike Davidson</blockquote>
-            </div>
+            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1633041459/symbol-scatter-haikei_2_hzwylb.png" style="width:100%; height: 99vh">
           </div>
 
           <div class="mySlides fade">
-            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1633004087/meetingform1_qdazyi.png" style="width:100%; height: 95vh">
-            <div class="text">
-              <blockquote>We are designing for a global user base...[With <br>inVision we can get feedback not just from <br>
-                drivers we see in San Francisco but from all <br> around the world.<br>
-                <span class="redline"></span>Mike Davidson</blockquote>
-            </div>
+            <img src="https://res.cloudinary.com/dvpavvw1u/image/upload/v1633004087/meetingform1_qdazyi.png" style="width:100%; height: 99vh">
+          </div>
+
+          <div class="text">
+            <blockquote><pre>                              We are designing for a global user base... [With
+                              inVision] we can get feedback not just from
+                              drivers we see in San Francisco but from all <br> &nbsp; around the world. <br>
+            <span class="yellowline"></span><span>MIKE DAVIDSON</span></pre></blockquote>
           </div>
 
               <!-- The dots/circles -->
-          <div style="text-align:center">
+          <div class="dots" style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>

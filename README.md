@@ -3,7 +3,7 @@ For this project, I got the inspiration from the CopyCat (Open Component) Challe
 
 As a second project, I wanted to choose a Dribbble page that contains multiple components, especially a form. I'll be reproducing this one: https://dribbble.com/shots/5393215-Vendimation-Login-Process
 
-##The problems I couldn't solve (yet):
+## The problems I couldn't solve (yet):
 * I used grid system to separate page into two. At the beginning, I wanted to make it responsive, however I used so many position-absolute/relative on many components which I couldn't find a way to make responsive. Also, I still need some time to understand the relation between height-width and the grid system in order to be able to make it responsive.
 * I started using Bootstrap 5, but I figured that it's going to be harder for me to implement several components. So I ended up not using Bootstrap. (Decided to do another project
 * including only Bootstrap)

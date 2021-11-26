@@ -14,6 +14,8 @@
   z-index: 1;
   margin-right: 50px;
   font-size: smaller;
+  color: white;
+  opacity: 0.8;
 }
 
 .logo {

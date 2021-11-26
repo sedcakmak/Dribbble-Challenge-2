@@ -84,14 +84,14 @@ input[type="checkbox"] + label {
 
 .term {
   display:flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  width: 100%;
 }
 label[for=terms] {
   font-size: 11px;
   margin-top: 9px;
-  width: 100%;
 }
 .account {
   display:flex;
